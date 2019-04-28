@@ -7,23 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		18B4B7B022709B24009DEE68 /* NotificationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B4B7AF22709B24009DEE68 /* NotificationManager.swift */; };
+		18B4B7B22270A024009DEE68 /* popUpReminderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B4B7B12270A024009DEE68 /* popUpReminderView.swift */; };
+		18B4B7B42270A53C009DEE68 /* banner.png in Resources */ = {isa = PBXBuildFile; fileRef = 18B4B7B32270A53C009DEE68 /* banner.png */; };
 		18C06BD8226F7AF3008F9985 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C06BD7226F7AF3008F9985 /* AppDelegate.swift */; };
-		18C06BDA226F7AF3008F9985 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C06BD9226F7AF3008F9985 /* ViewController.swift */; };
 		18C06BDD226F7AF3008F9985 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18C06BDB226F7AF3008F9985 /* Main.storyboard */; };
 		18C06BE0226F7AF3008F9985 /* Noteapp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 18C06BDE226F7AF3008F9985 /* Noteapp.xcdatamodeld */; };
 		18C06BE2226F7B12008F9985 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18C06BE1226F7B12008F9985 /* Assets.xcassets */; };
 		18C06BE5226F7B12008F9985 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18C06BE3226F7B12008F9985 /* LaunchScreen.storyboard */; };
+		18D373B9227029150045B40D /*  NoteTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D373B8227029150045B40D /*  NoteTableViewController.swift */; };
+		18D373BB2270294C0045B40D /* NoteAddViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D373BA2270294C0045B40D /* NoteAddViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		18B4B7AF22709B24009DEE68 /* NotificationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationManager.swift; sourceTree = "<group>"; };
+		18B4B7B12270A024009DEE68 /* popUpReminderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = popUpReminderView.swift; sourceTree = "<group>"; };
+		18B4B7B32270A53C009DEE68 /* banner.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = banner.png; sourceTree = "<group>"; };
 		18C06BD4226F7AF3008F9985 /* Noteapp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Noteapp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		18C06BD7226F7AF3008F9985 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		18C06BD9226F7AF3008F9985 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		18C06BDC226F7AF3008F9985 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		18C06BDF226F7AF3008F9985 /* Noteapp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Noteapp.xcdatamodel; sourceTree = "<group>"; };
 		18C06BE1226F7B12008F9985 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		18C06BE4226F7B12008F9985 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		18C06BE6226F7B12008F9985 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18D373B8227029150045B40D /*  NoteTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = " NoteTableViewController.swift"; sourceTree = "<group>"; };
+		18D373BA2270294C0045B40D /* NoteAddViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteAddViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,8 +64,12 @@
 		18C06BD6226F7AF3008F9985 /* Noteapp */ = {
 			isa = PBXGroup;
 			children = (
+				18B4B7B32270A53C009DEE68 /* banner.png */,
 				18C06BD7226F7AF3008F9985 /* AppDelegate.swift */,
-				18C06BD9226F7AF3008F9985 /* ViewController.swift */,
+				18D373B8227029150045B40D /*  NoteTableViewController.swift */,
+				18D373BA2270294C0045B40D /* NoteAddViewController.swift */,
+				18B4B7B12270A024009DEE68 /* popUpReminderView.swift */,
+				18B4B7AF22709B24009DEE68 /* NotificationManager.swift */,
 				18C06BDB226F7AF3008F9985 /* Main.storyboard */,
 				18C06BE1226F7B12008F9985 /* Assets.xcassets */,
 				18C06BE3226F7B12008F9985 /* LaunchScreen.storyboard */,
@@ -128,6 +140,7 @@
 				18C06BE5226F7B12008F9985 /* LaunchScreen.storyboard in Resources */,
 				18C06BE2226F7B12008F9985 /* Assets.xcassets in Resources */,
 				18C06BDD226F7AF3008F9985 /* Main.storyboard in Resources */,
+				18B4B7B42270A53C009DEE68 /* banner.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,9 +151,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				18C06BDA226F7AF3008F9985 /* ViewController.swift in Sources */,
+				18B4B7B022709B24009DEE68 /* NotificationManager.swift in Sources */,
+				18D373BB2270294C0045B40D /* NoteAddViewController.swift in Sources */,
+				18D373B9227029150045B40D /*  NoteTableViewController.swift in Sources */,
 				18C06BD8226F7AF3008F9985 /* AppDelegate.swift in Sources */,
 				18C06BE0226F7AF3008F9985 /* Noteapp.xcdatamodeld in Sources */,
+				18B4B7B22270A024009DEE68 /* popUpReminderView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -289,6 +305,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 38W63G7G92;
 				INFOPLIST_FILE = Noteapp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -296,7 +313,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = JP.LLC.Noteapp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -307,6 +324,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 38W63G7G92;
 				INFOPLIST_FILE = Noteapp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -314,7 +332,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = JP.LLC.Noteapp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
