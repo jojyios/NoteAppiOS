@@ -1,3 +1,3 @@
 # NoteAppiOS
-setReminderNotes and localNotification
-swipe action
+setReminderNotes and localNotification.
+swipe action.
